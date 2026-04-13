@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recauda Academy - Cursos Online</title>
+    <meta name="description" content="Aprende las habilidades más demandadas. Más de 50 cursos online con certificación.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <div class="preloader-spinner"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Recauda Academy</a>
+            <ul class="nav-links">
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#planes">Planes</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#" class="btn btn-black">Comenzar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content fade-up">
+                <h1>Aprende las habilidades que el mercado demanda</h1>
+                <p>Más de 50 cursos online impartidos por expertos. Aprende a tu ritmo y transforma tu carrera profesional.</p>
+                <div class="hero-buttons">
+                    <a href="#cursos" class="btn btn-black btn-large">Explorar cursos</a>
+                    <a href="#planes" class="btn btn-outline btn-large">Ver planes</a>
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <div class="stat-number">15,000+</div>
+                        <div class="stat-label">Estudiantes</div>
+                    </div>
+                    <div>
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Cursos</div>
+                    </div>
+                    <div>
+                        <div class="stat-number">4.8</div>
+                        <div class="stat-label">Valoración media</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image fade-right">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop" alt="Estudiantes">
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED COURSES -->
+    <section class="section" id="cursos">
+        <div class="container">
+            <div class="section-header fade-up">
+                <div class="section-label">Destacados</div>
+                <h2>Cursos más populares</h2>
+                <p>Los cursos más elegidos por nuestros estudiantes</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card scale-in stagger-1">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600&h=400&fit=crop" alt="Python">
+                    </div>
+                    <div class="course-content">
+                        <span class="course-tag">Programación</span>
+                        <h3 class="course-title">Python Completo: De Cero a Experto</h3>
+                        <div class="course-rating">★★★★★ 4.9 · 2,450 reseñas</div>
+                        <p class="course-desc">Domina Python desde los fundamentos hasta proyectos reales. Incluye Django, APIs y automatización.</p>
+                        <div class="course-footer">
+                            <span class="course-students">2,450 estudiantes</span>
+                            <span class="course-price">$49.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card scale-in stagger-2">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&h=400&fit=crop" alt="Web Dev">
+                    </div>
+                    <div class="course-content">
+                        <span class="course-tag">Desarrollo Web</span>
+                        <h3 class="course-title">Desarrollo Web Full Stack 2026</h3>
+                        <div class="course-rating">★★★★★ 4.8 · 3,120 reseñas</div>
+                        <p class="course-desc">HTML, CSS, JavaScript, React, Node.js. Crea aplicaciones web completas desde cero.</p>
+                        <div class="course-footer">
+                            <span class="course-students">3,120 estudiantes</span>
+                            <span class="course-price">$59.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card scale-in stagger-3">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Data Science">
+                    </div>
+                    <div class="course-content">
+                        <span class="course-tag">Data Science</span>
+                        <h3 class="course-title">Data Science & Machine Learning</h3>
+                        <div class="course-rating">★★★★★ 4.9 · 1,890 reseñas</div>
+                        <p class="course-desc">Análisis de datos, visualización, machine learning con Python. Proyectos reales incluidos.</p>
+                        <div class="course-footer">
+                            <span class="course-students">1,890 estudiantes</span>
+                            <span class="course-price">$69.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="features-bg">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&h=900&fit=crop" alt="">
+        </div>
+        <div class="container">
+            <div class="section-header fade-up">
+                <div class="section-label">Ventajas</div>
+                <h2>¿Por qué elegirnos?</h2>
+                <p>Todo lo que necesitas para aprender de forma efectiva</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card fade-up stagger-1">
+                    <div class="feature-card-image">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500&h=350&fit=crop" alt="Certificados">
+                    </div>
+                    <div class="feature-card-content">
+                        <h3>Certificados verificables</h3>
+                        <p>Reconocidos por empresas líderes de la industria tecnológica</p>
+                    </div>
+                </div>
+                <div class="feature-card fade-up stagger-2">
+                    <div class="feature-card-image">
+                        <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500&h=350&fit=crop" alt="A tu ritmo">
+                    </div>
+                    <div class="feature-card-content">
+                        <h3>Aprende a tu ritmo</h3>
+                        <p>Acceso de por vida al contenido. Sin fechas límite</p>
+                    </div>
+                </div>
+                <div class="feature-card fade-up stagger-3">
+                    <div class="feature-card-image">
+                        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=500&h=350&fit=crop" alt="Expertos">
+                    </div>
+                    <div class="feature-card-content">
+                        <h3>Expertos reales</h3>
+                        <p>Profesores que trabajan en empresas del sector tecnológico</p>
+                    </div>
+                </div>
+                <div class="feature-card fade-up stagger-4">
+                    <div class="feature-card-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=350&fit=crop" alt="Proyectos">
+                    </div>
+                    <div class="feature-card-content">
+                        <h3>Proyectos prácticos</h3>
+                        <p>Construye un portafolio profesional con proyectos reales</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ALL COURSES -->
+    <section class="section" id="catalogo">
+        <div class="container">
+            <div class="section-header fade-up">
+                <div class="section-label">Catálogo</div>
+                <h2>Todos los cursos</h2>
+                <p>Encuentra el curso perfecto para ti</p>
+            </div>
+            <div class="courses-list">
+                <div class="course-row fade-up stagger-1">
+                    <div class="course-row-image">
+                        <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=250&fit=crop" alt="Python">
+                    </div>
+                    <div class="course-row-info">
+                        <h3>Python Completo: De Cero a Experto</h3>
+                        <p>Domina el lenguaje más demandado. Desde fundamentos hasta Django y APIs.</p>
+                        <div class="course-row-meta">
+                            <span>45 horas</span>
+                            <span>180 lecciones</span>
+                            <span>★ 4.9</span>
+                        </div>
+                    </div>
+                    <div class="course-row-price fade-right stagger-1">
+                        <div class="price-current">$49.99</div>
+                        <div class="price-original">$199.99</div>
+                        <div class="price-discount">75% OFF</div>
+                        <a href="#" class="btn btn-black">Inscribirme</a>
+                    </div>
+                </div>
+                <div class="course-row fade-up stagger-2">
+                    <div class="course-row-image">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&h=250&fit=crop" alt="Web Dev">
+                    </div>
+                    <div class="course-row-info">
+                        <h3>Desarrollo Web Full Stack 2026</h3>
+                        <p>HTML, CSS, JavaScript, React, Node.js, MongoDB. Todo para ser un dev completo.</p>
+                        <div class="course-row-meta">
+                            <span>60 horas</span>
+                            <span>240 lecciones</span>
+                            <span>★ 4.8</span>
+                        </div>
+                    </div>
+                    <div class="course-row-price fade-right stagger-2">
+                        <div class="price-current">$59.99</div>
+                        <div class="price-original">$249.99</div>
+                        <div class="price-discount">76% OFF</div>
+                        <a href="#" class="btn btn-black">Inscribirme</a>
+                    </div>
+                </div>
+                <div class="course-row fade-up stagger-3">
+                    <div class="course-row-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop" alt="Data Science">
+                    </div>
+                    <div class="course-row-info">
+                        <h3>Data Science & Machine Learning</h3>
+                        <p>Análisis de datos, visualización, modelos predictivos con datos reales.</p>
+                        <div class="course-row-meta">
+                            <span>55 horas</span>
+                            <span>200 lecciones</span>
+                            <span>★ 4.9</span>
+                        </div>
+                    </div>
+                    <div class="course-row-price fade-right stagger-3">
+                        <div class="price-current">$69.99</div>
+                        <div class="price-original">$299.99</div>
+                        <div class="price-discount">77% OFF</div>
+                        <a href="#" class="btn btn-black">Inscribirme</a>
+                    </div>
+                </div>
+                <div class="course-row fade-up stagger-4">
+                    <div class="course-row-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=250&fit=crop" alt="Mobile">
+                    </div>
+                    <div class="course-row-info">
+                        <h3>Desarrollo Móvil con React Native</h3>
+                        <p>Crea apps para iOS y Android con un solo código base.</p>
+                        <div class="course-row-meta">
+                            <span>40 horas</span>
+                            <span>150 lecciones</span>
+                            <span>★ 4.7</span>
+                        </div>
+                    </div>
+                    <div class="course-row-price fade-right stagger-4">
+                        <div class="price-current">$54.99</div>
+                        <div class="price-original">$219.99</div>
+                        <div class="price-discount">75% OFF</div>
+                        <a href="#" class="btn btn-black">Inscribirme</a>
+                    </div>
+                </div>
+                <div class="course-row fade-up stagger-5">
+                    <div class="course-row-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=250&fit=crop" alt="UX Design">
+                    </div>
+                    <div class="course-row-info">
+                        <h3>UX/UI Design: Diseño de Experiencias</h3>
+                        <p>Figma, user research, wireframes, prototipos. De cero a profesional.</p>
+                        <div class="course-row-meta">
+                            <span>35 horas</span>
+                            <span>120 lecciones</span>
+                            <span>★ 4.8</span>
+                        </div>
+                    </div>
+                    <div class="course-row-price fade-right stagger-5">
+                        <div class="price-current">$44.99</div>
+                        <div class="price-original">$179.99</div>
+                        <div class="price-discount">75% OFF</div>
+                        <a href="#" class="btn btn-black">Inscribirme</a>
+                    </div>
+                </div>
+                <div class="course-row fade-up stagger-6">
+                    <div class="course-row-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop" alt="Marketing">
+                    </div>
+                    <div class="course-row-info">
+                        <h3>Marketing Digital & Growth Hacking</h3>
+                        <p>SEO, SEM, redes sociales, email marketing, analítica web.</p>
+                        <div class="course-row-meta">
+                            <span>30 horas</span>
+                            <span>100 lecciones</span>
+                            <span>★ 4.7</span>
+                        </div>
+                    </div>
+                    <div class="course-row-price fade-right stagger-6">
+                        <div class="price-current">$39.99</div>
+                        <div class="price-original">$159.99</div>
+                        <div class="price-discount">75% OFF</div>
+                        <a href="#" class="btn btn-black">Inscribirme</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS BAR -->
+    <section class="stats-bar">
+        <div class="container">
+            <div class="stats-bar-grid">
+                <div class="stats-bar-item fade-up stagger-1">
+                    <h3>15,000+</h3>
+                    <p>Estudiantes activos</p>
+                </div>
+                <div class="stats-bar-item fade-up stagger-2">
+                    <h3>50+</h3>
+                    <p>Cursos disponibles</p>
+                </div>
+                <div class="stats-bar-item fade-up stagger-3">
+                    <h3>98%</h3>
+                    <p>Satisfacción</p>
+                </div>
+                <div class="stats-bar-item fade-up stagger-4">
+                    <h3>4.8/5</h3>
+                    <p>Valoración promedio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLANS -->
+    <section class="section plans" id="planes">
+        <div class="container">
+            <div class="section-header fade-up">
+                <div class="section-label">Planes</div>
+                <h2>Suscripción mensual</h2>
+                <p>Accede a todos los cursos. Cancela cuando quieras.</p>
+            </div>
+            <div class="plans-grid">
+                <div class="plan-card fade-up stagger-1">
+                    <div class="plan-name">Básico</div>
+                    <div class="plan-desc">Para empezar</div>
+                    <div class="plan-price">$29<span>/mes</span></div>
+                    <div class="plan-period">Facturado mensualmente</div>
+                    <ul class="plan-features">
+                        <li>10 cursos incluidos</li>
+                        <li>Certificados digitales</li>
+                        <li>Soporte por email</li>
+                        <li>1 dispositivo</li>
+                        <li class="disabled">Cursos exclusivos</li>
+                        <li class="disabled">Mentoría 1-a-1</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Elegir</a>
+                </div>
+                <div class="plan-card featured fade-up stagger-2">
+                    <div class="plan-name">Profesional</div>
+                    <div class="plan-desc">El más elegido</div>
+                    <div class="plan-price">$49<span>/mes</span></div>
+                    <div class="plan-period">Facturado mensualmente</div>
+                    <ul class="plan-features">
+                        <li>Todos los cursos</li>
+                        <li>Certificados verificados</li>
+                        <li>Soporte prioritario</li>
+                        <li>3 dispositivos</li>
+                        <li>Cursos exclusivos</li>
+                        <li class="disabled">Mentoría 1-a-1</li>
+                    </ul>
+                    <a href="#" class="btn btn-black">Elegir</a>
+                </div>
+                <div class="plan-card fade-up stagger-3">
+                    <div class="plan-name">Enterprise</div>
+                    <div class="plan-desc">Para equipos</div>
+                    <div class="plan-price">$99<span>/mes</span></div>
+                    <div class="plan-period">Facturado mensualmente</div>
+                    <ul class="plan-features">
+                        <li>Todo lo del Plan Pro</li>
+                        <li>Mentoría semanal</li>
+                        <li>Proyectos con empresas</li>
+                        <li>Dispositivos ilimitados</li>
+                        <li>Bolsa de trabajo</li>
+                        <li>Certificados oficiales</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Contactar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonios">
+        <div class="testimonials-video-bg">
+            <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1600&h=900&fit=crop">
+                <source src="bg-video.webm" type="video/webm">
+                <source src="bg-video-small.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="container">
+            <div class="section-header fade-up">
+                <div class="section-label">Testimonios</div>
+                <h2>Lo que dicen los estudiantes</h2>
+                <p>Miles de estudiantes ya transformaron sus carreras con nosotros</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-up stagger-1">
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face" alt="María">
+                        </div>
+                        <div>
+                            <div class="testimonial-name">María García</div>
+                            <div class="testimonial-role">Frontend Developer en Google</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"En 6 meses pasé de no saber nada de programación a trabajar en Google. Los cursos son prácticos y los profesores explican de forma clara."</p>
+                </div>
+                <div class="testimonial-card fade-up stagger-2">
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Carlos">
+                        </div>
+                        <div>
+                            <div class="testimonial-name">Carlos Rodríguez</div>
+                            <div class="testimonial-role">Data Scientist en Amazon</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"La calidad del contenido es superior a cualquier otra plataforma. Ahora trabajo como Data Scientist y gano 3 veces más que antes."</p>
+                </div>
+                <div class="testimonial-card fade-up stagger-3">
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Ana">
+                        </div>
+                        <div>
+                            <div class="testimonial-name">Ana Martínez</div>
+                            <div class="testimonial-role">Freelance UX Designer</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Dejé mi trabajo de oficina gracias a lo que aprendí aquí. Ahora soy diseñadora UX freelance con horarios flexibles."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <div class="scale-in">
+                <h2>Empieza hoy</h2>
+                <p>Únete a más de 15,000 estudiantes. Garantía de devolución de 30 días.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-black btn-large">Comenzar gratis</a>
+                    <a href="#planes" class="btn btn-outline btn-large">Ver planes</a>
+                </div>
+                <div class="cta-note">Sin tarjeta de crédito · Cancela cuando quieras</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Recauda Academy</a>
+                    <p>Educación online en español. Transformamos carreras a través de la tecnología.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Cursos</h4>
+                    <ul>
+                        <li><a href="#">Programación</a></li>
+                        <li><a href="#">Desarrollo Web</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">UX Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Términos</a></li>
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Reembolsos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Recauda Academy</span>
+                <span>Hecho con cuidado para la comunidad hispanohablante</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
